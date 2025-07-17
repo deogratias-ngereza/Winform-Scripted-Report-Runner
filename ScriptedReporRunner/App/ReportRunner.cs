@@ -33,6 +33,8 @@ namespace ScriptedReporRunner.App
         private void loadCommandsIntoComboBox()
         {
             //List<ComboBoxItem> comboBoxItems = new List<ComboBoxItem>();
+            appNameLbl.Text = applicationConfiguration.app_name;
+
             for (var i = 0; i < applicationConfiguration.commands.Count; i++ )
             {
                 ComboBoxItem item = new ComboBoxItem();

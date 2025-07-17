@@ -30,7 +30,7 @@
         {
             this.startDatePicker = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.appNameLbl = new System.Windows.Forms.Label();
             this.endDatePicker = new System.Windows.Forms.DateTimePicker();
             this.label3 = new System.Windows.Forms.Label();
             this.runReportBtn = new System.Windows.Forms.Button();
@@ -63,15 +63,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "START-DATE";
             // 
-            // label2
+            // appNameLbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(28, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(208, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "REPORT-RUNNER";
+            this.appNameLbl.AutoSize = true;
+            this.appNameLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.appNameLbl.Location = new System.Drawing.Point(28, 37);
+            this.appNameLbl.Name = "appNameLbl";
+            this.appNameLbl.Size = new System.Drawing.Size(208, 25);
+            this.appNameLbl.TabIndex = 1;
+            this.appNameLbl.Text = "REPORT-RUNNER";
             // 
             // endDatePicker
             // 
@@ -201,7 +201,7 @@
             this.Controls.Add(this.argsTxt);
             this.Controls.Add(this.reportTypeComboBox);
             this.Controls.Add(this.runReportBtn);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.appNameLbl);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.endDatePicker);
             this.Controls.Add(this.label5);
@@ -222,7 +222,7 @@
 
         private System.Windows.Forms.DateTimePicker startDatePicker;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label appNameLbl;
         private System.Windows.Forms.DateTimePicker endDatePicker;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button runReportBtn;
