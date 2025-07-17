@@ -1,0 +1,21 @@
+{
+	"app_name": "CMD REPORT RUN",
+	"commands": [
+		{
+			"report_code": "SAMPLE_REPORT",
+			"report_name": "SAMPLE REPORT",
+			"execution_path": "D:/GRAND_MASTER/GRAND_PRO/PROJECTS/GM-SMART-SCALE/EmailReport/bin/php56/php.exe",
+			"working_dir_path": "D:/GRAND_MASTER/GRAND_PRO/PROJECTS/GM-SMART-SCALE/EmailReport/App/Schedules/LegacySmartScaleReport",
+			"cmd_arguments": "TicketReport.php <START_DATE> <END_DATE>",
+			"report_readme": "Readme Report 1"
+		},
+		{
+			"report_code": "SAMPLE_REPORT2",
+			"report_name": "SAMPLE REPORT2",
+			"execution_path": "D:/GRAND_MASTER/GRAND_PRO/PROJECTS/GM-SMART-SCALE/EmailReport/bin/php56/php.exe",
+			"working_dir_path": "D:/GRAND_MASTER/GRAND_PRO/PROJECTS/GM-SMART-SCALE/EmailReport/App/Schedules/LegacySmartScaleReport",
+			"cmd_arguments": "TicketReport.php <START_DATE>",
+			"report_readme": "Readme Report 2"
+		}
+	]
+}
